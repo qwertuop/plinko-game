@@ -42,9 +42,6 @@
 
   <footer class="px-5 pb-4 pt-16">
     <div class="mx-auto max-w-[40rem]">
-      <div aria-hidden="true" class="h-[1px] bg-slate-700" />
-      <div class="flex items-center justify-between p-2">
-      </div>
     </div>
   </footer>
 </div>
