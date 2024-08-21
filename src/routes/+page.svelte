@@ -6,6 +6,7 @@
   import SettingsWindow from '$lib/components/SettingsWindow';
   import Sidebar from '$lib/components/Sidebar';
   import { setBalanceFromLocalStorage, writeBalanceToLocalStorage } from '$lib/utils/game';
+  import GitHubLogo from 'phosphor-svelte/lib/GithubLogo';
   import { onMount } from 'svelte';
 
   onMount(() => {
@@ -39,6 +40,23 @@
   <SettingsWindow />
   <LiveStatsWindow />
 
+<footer class="px-5 pb-4 pt-16">
+    <div class="mx-auto max-w-[40rem]">
+      <div aria-hidden="true" class="h-[1px] bg-slate-700" />
+      <div class="flex items-center justify-between p-2">
+        
+        <a
+          href="https://github.com/AnsonH/plinko-game"
+          target="_blank"
+          rel="noreferrer"
+          class="flex items-center gap-1 p-1 text-sm text-slate-500 transition hover:text-cyan-500"
+        >
+          <GitHubLogo class="size-4" weight="bold" />
+          <span>Source Code</span>
+        </a>
+      </div>
+    </div>
+  </footer>
 </div>
 
 <style>
