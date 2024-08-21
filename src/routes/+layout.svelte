@@ -1,6 +1,5 @@
 <script>
   import '../app.css';
-  import ogImage from '$lib/assets/og_image.jpg';
 </script>
 
 <svelte:head>
@@ -13,8 +12,7 @@
   />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Plinko" />
-  <meta property="og:url" content="https://plinko-web-game.netlify.app/" />
-  <meta property="og:image" content={ogImage} />
+  <meta property="og:url" content="https://plinko.skillseed.org" />
 </svelte:head>
 
 <slot />
