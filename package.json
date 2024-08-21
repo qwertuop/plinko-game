@@ -15,9 +15,7 @@
     "lint": "prettier --check . && eslint .",
     "format": "prettier --write ."
   },
-  "engines": {
-    "node": ">=20"
-  },
+
   "dependencies": {
     "@neodrag/svelte": "^2.0.6",
     "bits-ui": "^0.21.7",
