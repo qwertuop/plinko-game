@@ -6,7 +6,6 @@
   import SettingsWindow from '$lib/components/SettingsWindow';
   import Sidebar from '$lib/components/Sidebar';
   import { setBalanceFromLocalStorage, writeBalanceToLocalStorage } from '$lib/utils/game';
-  import GitHubLogo from 'phosphor-svelte/lib/GithubLogo';
   import { onMount } from 'svelte';
 
   onMount(() => {
@@ -40,10 +39,6 @@
   <SettingsWindow />
   <LiveStatsWindow />
 
-  <footer class="px-5 pb-4 pt-16">
-    <div class="mx-auto max-w-[40rem]">
-    </div>
-  </footer>
 </div>
 
 <style>
